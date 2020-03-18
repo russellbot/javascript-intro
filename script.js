@@ -1,11 +1,2 @@
-function sayHello() {
-	console.log("Hello");
-}
+var list = ["tiger", "cat", "bear", "bird"];
 
-sayHello();
-
-var sayBye = function() {
-	console.log("Bye");
-}
-
-sayBye();
