@@ -1,22 +1,24 @@
-var user = {
-	name: "John",
-	age: 34,
-	hobby: "Soccer",
-	isMarried: false,
-	spells: ["abrakadabra", "shazam", "boo"],
-	shout: function() {
-		console.log("AHHHHHH!");
-	}
-};
+{
+	username: "Randy",
+	password: "password",
+}
 
-var list = [
+var database = [{
+	username: "Randy",
+	password: "password",
+}];
+
+var newsfeed = [
 	{
-		username: "andy",
-		password: "secre"
+		username: "George",
+		timeline: 1400
 	},
 	{
-		username: "jess",
-		password: "123"
+		username: "Ringo",
+		timeline: 1700
+	},
+	{
+		username: "Paul",
+		timeline: 1830
 	}
-
-];
+]
