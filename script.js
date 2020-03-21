@@ -1,24 +1,5 @@
-{
-	username: "Randy",
-	password: "password",
-}
+var button = document.getElementsByTagName("button")[0];
 
-var database = [{
-	username: "Randy",
-	password: "password",
-}];
-
-var newsfeed = [
-	{
-		username: "George",
-		timeline: 1400
-	},
-	{
-		username: "Ringo",
-		timeline: 1700
-	},
-	{
-		username: "Paul",
-		timeline: 1830
-	}
-]
+button.addEventListener("mouseleave", function() {
+	console.log("CLICK!!!!");
+})
